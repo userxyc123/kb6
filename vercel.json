@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "api/server.js": {
+        "runtime": "nodejs20.x"
+      }
+    },
+    "routes": [
+      { "src": "/knowledge_base", "dest": "/api/server.js" }
+    ]
+  }
+  

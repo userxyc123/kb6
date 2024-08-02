@@ -1,0 +1,16 @@
+{
+    "name": "knowledge-base-server",
+    "version": "1.0.0",
+    "description": "A simple serverless function for managing a knowledge base",
+    "main": "api/server.js",
+    "scripts": {
+      "start": "node api/server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "engines": {
+      "node": "20.x"
+    }
+  }
+  
